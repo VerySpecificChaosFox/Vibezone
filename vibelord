@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Vibezone</title>
+        <style>
+        .amoung {
+            margin: 3%;
+        position: absolute;
+            top: 150px;
+            right: 150px}
+        .gamer {
+            margin: 3%;
+        position: absolute;
+            top: 650px;
+            right: 670px}
+        .RS {
+            margin: 3%;
+        position: absolute;
+            top: 650px;
+            right: 670px}
+        .amoung {
+            margin: 3%;
+        position: absolute;
+            top: 150px;
+            right: 150px}
+        </style>
+    </head>
+    <body style="background-color: cadetblue">
+    <p style="font-family: fantasy; color: azure; font-size: 40px">Welcome to the Vibezone!</p>
+        <p style="font-family: fantasy; color:beige; font-size: 20px">There isn't all too much to do here, but we hope you'll enjoy your stay!</p>
+        <p style="font-family: fantasy; color:beige; font-size: 20px">Just put some of your nagging problems into this complimentary envelope, and watch as they fly away. (the flying is a work in progress)</p>
+       <img src="https://i.imgur.com/ivKVI8i.png" id="Buton" width="250" style=visibility: hidden>
+        <div class="amoung">
+        <img src="https://i.imgur.com/ASoPbR5.png" id="Papier" class="amoung">
+         <form>
+        <input type="text" class="gamer" size="70">
+        </form>
+            <button type="button" size="70" class="gamer" onclick="show()" id="donebuton">done</button>
+            <script>
+            function show() {
+            document.getElementById('envelop')
+            .style.display = "block"}</script>
+            <img src="https://im3.ezgif.com/tmp/ezgif-3-5a77b1447f.gif" id="envelop" class="amoung" width="1500" style=visibility: hidden>
+        </div> 
+      
+        
+    </body>
+</html>
